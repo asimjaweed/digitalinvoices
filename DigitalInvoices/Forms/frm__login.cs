@@ -38,10 +38,10 @@ namespace DigitalInvoices
                 {
                     string hashedPassword = HashPassword(txt_password.Text);
 
-                    var user = db.Users
+                    var user = db.users
                     .FirstOrDefault(x => x.Username == txt_username.Text
                     && x.Password == hashedPassword
-                    && x.Status == "Active");
+                    && x.Status ==true);
 
                     if (user != null)
                     {

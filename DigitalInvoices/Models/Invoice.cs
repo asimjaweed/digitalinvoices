@@ -35,4 +35,4 @@ namespace DigitalInvoices.Models
         public List<InvoiceItem>? Items { get; set; }
         }
     }
-}
+

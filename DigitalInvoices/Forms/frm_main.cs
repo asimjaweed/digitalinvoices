@@ -1,3 +1,5 @@
+using DigitalInvoices.Forms;
+
 namespace DigitalInvoices
 {
     public partial class frm_main : Form
@@ -33,6 +35,27 @@ namespace DigitalInvoices
             AddUserForm adduser_frm = new AddUserForm();
             adduser_frm.MdiParent = this;
             adduser_frm.Show();
+        }
+
+        private void sellerInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_seller addseller = new frm_seller();
+            addseller.MdiParent = this;
+            addseller.Show();
+        }
+
+        private void addCustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Customer addCustomer = new frm_Customer();
+            addCustomer.MdiParent = this;
+            addCustomer.Show();
+        }
+
+        private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_product addProduct = new frm_product(); 
+            addProduct.MdiParent = this;
+            addProduct.Show();
         }
     }
 }
