@@ -30,16 +30,20 @@
         {
             label13 = new Label();
             groupBox1 = new GroupBox();
+            cmb_RegType = new ComboBox();
+            cmb_Province = new ComboBox();
             txt_CNIC = new TextBox();
             txt_CellNo = new TextBox();
             txt_PhoneNo = new TextBox();
-            txt_CityName = new TextBox();
+            txt_Address = new TextBox();
             txt_BusinessName = new TextBox();
             label12 = new Label();
             txt_EmailAddress = new TextBox();
             txt_LastName = new TextBox();
             txt_FirstName = new TextBox();
             label5 = new Label();
+            label14 = new Label();
+            label8 = new Label();
             label4 = new Label();
             label7 = new Label();
             label3 = new Label();
@@ -61,91 +65,120 @@
             // 
             // label13
             // 
-            label13.AutoSize = true;
+            label13.BackColor = Color.Tan;
             label13.Font = new Font("Arial", 12F);
-            label13.Location = new Point(12, 9);
+            label13.Location = new Point(8, 12);
             label13.Name = "label13";
-            label13.Size = new Size(121, 18);
+            label13.Size = new Size(912, 23);
             label13.TabIndex = 0;
             label13.Text = "Customer Detail";
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(cmb_RegType);
+            groupBox1.Controls.Add(cmb_Province);
             groupBox1.Controls.Add(txt_CNIC);
             groupBox1.Controls.Add(txt_CellNo);
             groupBox1.Controls.Add(txt_PhoneNo);
-            groupBox1.Controls.Add(txt_CityName);
+            groupBox1.Controls.Add(txt_Address);
             groupBox1.Controls.Add(txt_BusinessName);
             groupBox1.Controls.Add(label12);
             groupBox1.Controls.Add(txt_EmailAddress);
             groupBox1.Controls.Add(txt_LastName);
             groupBox1.Controls.Add(txt_FirstName);
             groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(label14);
+            groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(12, 46);
+            groupBox1.Location = new Point(14, 61);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(776, 144);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(887, 259);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Personal Info";
+            // 
+            // cmb_RegType
+            // 
+            cmb_RegType.FormattingEnabled = true;
+            cmb_RegType.Items.AddRange(new object[] { "Registered", "Un Registered" });
+            cmb_RegType.Location = new Point(720, 136);
+            cmb_RegType.Name = "cmb_RegType";
+            cmb_RegType.Size = new Size(171, 28);
+            cmb_RegType.TabIndex = 11;
+            // 
+            // cmb_Province
+            // 
+            cmb_Province.FormattingEnabled = true;
+            cmb_Province.Items.AddRange(new object[] { "Islamabad", "Punjab", "Sindh", "KPK", "Gilgit", "Ajk", "Balochistan" });
+            cmb_Province.Location = new Point(375, 136);
+            cmb_Province.Name = "cmb_Province";
+            cmb_Province.Size = new Size(171, 28);
+            cmb_Province.TabIndex = 11;
             // 
             // txt_CNIC
             // 
             txt_CNIC.BorderStyle = BorderStyle.FixedSingle;
             txt_CNIC.Font = new Font("Arial", 11F);
-            txt_CNIC.Location = new Point(78, 62);
+            txt_CNIC.Location = new Point(89, 83);
+            txt_CNIC.Margin = new Padding(3, 4, 3, 4);
             txt_CNIC.Name = "txt_CNIC";
-            txt_CNIC.Size = new Size(150, 24);
-            txt_CNIC.TabIndex = 19;
+            txt_CNIC.Size = new Size(171, 29);
+            txt_CNIC.TabIndex = 4;
             // 
             // txt_CellNo
             // 
             txt_CellNo.BorderStyle = BorderStyle.FixedSingle;
             txt_CellNo.Font = new Font("Arial", 11F);
-            txt_CellNo.Location = new Point(606, 62);
+            txt_CellNo.Location = new Point(693, 83);
+            txt_CellNo.Margin = new Padding(3, 4, 3, 4);
             txt_CellNo.Name = "txt_CellNo";
-            txt_CellNo.Size = new Size(150, 24);
-            txt_CellNo.TabIndex = 17;
+            txt_CellNo.Size = new Size(171, 29);
+            txt_CellNo.TabIndex = 6;
             // 
             // txt_PhoneNo
             // 
             txt_PhoneNo.BorderStyle = BorderStyle.FixedSingle;
             txt_PhoneNo.Font = new Font("Arial", 11F);
-            txt_PhoneNo.Location = new Point(328, 62);
+            txt_PhoneNo.Location = new Point(375, 83);
+            txt_PhoneNo.Margin = new Padding(3, 4, 3, 4);
             txt_PhoneNo.Name = "txt_PhoneNo";
-            txt_PhoneNo.Size = new Size(150, 24);
-            txt_PhoneNo.TabIndex = 15;
+            txt_PhoneNo.Size = new Size(171, 29);
+            txt_PhoneNo.TabIndex = 5;
             // 
-            // txt_CityName
+            // txt_Address
             // 
-            txt_CityName.BorderStyle = BorderStyle.FixedSingle;
-            txt_CityName.Font = new Font("Arial", 11F);
-            txt_CityName.Location = new Point(78, 101);
-            txt_CityName.Name = "txt_CityName";
-            txt_CityName.Size = new Size(400, 24);
-            txt_CityName.TabIndex = 14;
+            txt_Address.BorderStyle = BorderStyle.FixedSingle;
+            txt_Address.Font = new Font("Arial", 11F);
+            txt_Address.Location = new Point(89, 204);
+            txt_Address.Margin = new Padding(3, 4, 3, 4);
+            txt_Address.Name = "txt_Address";
+            txt_Address.Size = new Size(783, 29);
+            txt_Address.TabIndex = 7;
             // 
             // txt_BusinessName
             // 
             txt_BusinessName.BorderStyle = BorderStyle.FixedSingle;
             txt_BusinessName.Font = new Font("Arial", 11F);
-            txt_BusinessName.Location = new Point(606, 25);
+            txt_BusinessName.Location = new Point(693, 33);
+            txt_BusinessName.Margin = new Padding(3, 4, 3, 4);
             txt_BusinessName.Name = "txt_BusinessName";
-            txt_BusinessName.Size = new Size(150, 24);
-            txt_BusinessName.TabIndex = 13;
+            txt_BusinessName.Size = new Size(171, 29);
+            txt_BusinessName.TabIndex = 3;
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Arial", 9F);
-            label12.Location = new Point(6, 71);
+            label12.Location = new Point(7, 95);
             label12.Name = "label12";
-            label12.Size = new Size(59, 15);
+            label12.Size = new Size(69, 17);
             label12.TabIndex = 8;
             label12.Text = "CNIC No.";
             // 
@@ -153,46 +186,69 @@
             // 
             txt_EmailAddress.BorderStyle = BorderStyle.FixedSingle;
             txt_EmailAddress.Font = new Font("Arial", 11F);
-            txt_EmailAddress.Location = new Point(606, 101);
+            txt_EmailAddress.Location = new Point(89, 135);
+            txt_EmailAddress.Margin = new Padding(3, 4, 3, 4);
             txt_EmailAddress.Name = "txt_EmailAddress";
-            txt_EmailAddress.Size = new Size(150, 24);
-            txt_EmailAddress.TabIndex = 12;
+            txt_EmailAddress.Size = new Size(171, 29);
+            txt_EmailAddress.TabIndex = 8;
             // 
             // txt_LastName
             // 
             txt_LastName.BorderStyle = BorderStyle.FixedSingle;
             txt_LastName.Font = new Font("Arial", 11F);
-            txt_LastName.Location = new Point(328, 25);
+            txt_LastName.Location = new Point(375, 33);
+            txt_LastName.Margin = new Padding(3, 4, 3, 4);
             txt_LastName.Name = "txt_LastName";
-            txt_LastName.Size = new Size(150, 24);
-            txt_LastName.TabIndex = 11;
+            txt_LastName.Size = new Size(171, 29);
+            txt_LastName.TabIndex = 2;
             // 
             // txt_FirstName
             // 
             txt_FirstName.BorderStyle = BorderStyle.FixedSingle;
             txt_FirstName.Font = new Font("Arial", 11F);
-            txt_FirstName.Location = new Point(78, 25);
+            txt_FirstName.Location = new Point(89, 33);
+            txt_FirstName.Margin = new Padding(3, 4, 3, 4);
             txt_FirstName.Name = "txt_FirstName";
-            txt_FirstName.Size = new Size(150, 24);
-            txt_FirstName.TabIndex = 18;
+            txt_FirstName.Size = new Size(171, 29);
+            txt_FirstName.TabIndex = 1;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial", 9F);
-            label5.Location = new Point(506, 71);
+            label5.Location = new Point(578, 95);
             label5.Name = "label5";
-            label5.Size = new Size(51, 15);
+            label5.Size = new Size(59, 17);
             label5.TabIndex = 9;
             label5.Text = "Cell No,";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Arial", 9F);
+            label14.Location = new Point(592, 144);
+            label14.Name = "label14";
+            label14.Size = new Size(121, 17);
+            label14.TabIndex = 6;
+            label14.Text = "Registration Type";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Arial", 9F);
+            label8.Location = new Point(296, 147);
+            label8.Name = "label8";
+            label8.Size = new Size(65, 17);
+            label8.TabIndex = 6;
+            label8.Text = "Province";
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 9F);
-            label4.Location = new Point(256, 71);
+            label4.Location = new Point(293, 95);
             label4.Name = "label4";
-            label4.Size = new Size(43, 15);
+            label4.Size = new Size(50, 17);
             label4.TabIndex = 6;
             label4.Text = "Phone";
             // 
@@ -200,9 +256,9 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Arial", 9F);
-            label7.Location = new Point(6, 110);
+            label7.Location = new Point(7, 216);
             label7.Name = "label7";
-            label7.Size = new Size(53, 15);
+            label7.Size = new Size(62, 17);
             label7.TabIndex = 5;
             label7.Text = "Address";
             // 
@@ -210,9 +266,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 9F);
-            label3.Location = new Point(506, 34);
+            label3.Location = new Point(578, 45);
             label3.Name = "label3";
-            label3.Size = new Size(97, 15);
+            label3.Size = new Size(112, 17);
             label3.TabIndex = 4;
             label3.Text = "Business Name";
             // 
@@ -220,19 +276,19 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial", 9F);
-            label6.Location = new Point(506, 110);
+            label6.Location = new Point(7, 147);
             label6.Name = "label6";
-            label6.Size = new Size(87, 15);
+            label6.Size = new Size(49, 17);
             label6.TabIndex = 3;
-            label6.Text = "Email Address";
+            label6.Text = "Email:";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 9F);
-            label2.Location = new Point(256, 34);
+            label2.Location = new Point(293, 45);
             label2.Name = "label2";
-            label2.Size = new Size(68, 15);
+            label2.Size = new Size(79, 17);
             label2.TabIndex = 10;
             label2.Text = "Last Name";
             // 
@@ -240,9 +296,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 9F);
-            label1.Location = new Point(6, 34);
+            label1.Location = new Point(7, 45);
             label1.Name = "label1";
-            label1.Size = new Size(68, 15);
+            label1.Size = new Size(80, 17);
             label1.TabIndex = 2;
             label1.Text = "First Name";
             // 
@@ -254,9 +310,11 @@
             groupBox2.Controls.Add(label11);
             groupBox2.Controls.Add(label10);
             groupBox2.Controls.Add(label9);
-            groupBox2.Location = new Point(12, 196);
+            groupBox2.Location = new Point(14, 336);
+            groupBox2.Margin = new Padding(3, 4, 3, 4);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(776, 75);
+            groupBox2.Padding = new Padding(3, 4, 3, 4);
+            groupBox2.Size = new Size(887, 100);
             groupBox2.TabIndex = 3;
             groupBox2.TabStop = false;
             groupBox2.Text = "Account Info";
@@ -265,36 +323,39 @@
             // 
             txt_STNNo.BorderStyle = BorderStyle.FixedSingle;
             txt_STNNo.Font = new Font("Arial", 11F);
-            txt_STNNo.Location = new Point(606, 27);
+            txt_STNNo.Location = new Point(672, 37);
+            txt_STNNo.Margin = new Padding(3, 4, 3, 4);
             txt_STNNo.Name = "txt_STNNo";
-            txt_STNNo.Size = new Size(150, 24);
-            txt_STNNo.TabIndex = 5;
+            txt_STNNo.Size = new Size(171, 29);
+            txt_STNNo.TabIndex = 11;
             // 
             // txt_NTNNo
             // 
             txt_NTNNo.BorderStyle = BorderStyle.FixedSingle;
             txt_NTNNo.Font = new Font("Arial", 11F);
-            txt_NTNNo.Location = new Point(328, 32);
+            txt_NTNNo.Location = new Point(392, 37);
+            txt_NTNNo.Margin = new Padding(3, 4, 3, 4);
             txt_NTNNo.Name = "txt_NTNNo";
-            txt_NTNNo.Size = new Size(150, 24);
-            txt_NTNNo.TabIndex = 6;
+            txt_NTNNo.Size = new Size(171, 29);
+            txt_NTNNo.TabIndex = 10;
             // 
             // txt_AccNo
             // 
             txt_AccNo.BorderStyle = BorderStyle.FixedSingle;
             txt_AccNo.Font = new Font("Arial", 11F);
-            txt_AccNo.Location = new Point(78, 28);
+            txt_AccNo.Location = new Point(104, 37);
+            txt_AccNo.Margin = new Padding(3, 4, 3, 4);
             txt_AccNo.Name = "txt_AccNo";
-            txt_AccNo.Size = new Size(150, 24);
-            txt_AccNo.TabIndex = 7;
+            txt_AccNo.Size = new Size(171, 29);
+            txt_AccNo.TabIndex = 9;
             // 
             // label11
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Arial", 9F);
-            label11.Location = new Point(506, 37);
+            label11.Location = new Point(603, 49);
             label11.Name = "label11";
-            label11.Size = new Size(53, 15);
+            label11.Size = new Size(63, 17);
             label11.TabIndex = 2;
             label11.Text = "STN No.";
             // 
@@ -302,9 +363,9 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Arial", 9F);
-            label10.Location = new Point(261, 37);
+            label10.Location = new Point(317, 49);
             label10.Name = "label10";
-            label10.Size = new Size(54, 15);
+            label10.Size = new Size(63, 17);
             label10.TabIndex = 3;
             label10.Text = "NTN No.";
             // 
@@ -312,9 +373,9 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Arial", 9F);
-            label9.Location = new Point(6, 37);
+            label9.Location = new Point(7, 49);
             label9.Name = "label9";
-            label9.Size = new Size(72, 15);
+            label9.Size = new Size(87, 17);
             label9.TabIndex = 4;
             label9.Text = "Account No.";
             // 
@@ -322,32 +383,38 @@
             // 
             bttn_AddRecrod.BackColor = Color.DarkGreen;
             bttn_AddRecrod.ForeColor = SystemColors.ButtonHighlight;
-            bttn_AddRecrod.Location = new Point(633, 298);
+            bttn_AddRecrod.Location = new Point(723, 448);
+            bttn_AddRecrod.Margin = new Padding(3, 4, 3, 4);
             bttn_AddRecrod.Name = "bttn_AddRecrod";
-            bttn_AddRecrod.Size = new Size(135, 31);
+            bttn_AddRecrod.Size = new Size(154, 41);
             bttn_AddRecrod.TabIndex = 4;
             bttn_AddRecrod.Text = "Add Record";
             bttn_AddRecrod.UseVisualStyleBackColor = false;
+            bttn_AddRecrod.Click += bttn_AddRecrod_Click;
             // 
             // bttn_Reset
             // 
-            bttn_Reset.Location = new Point(480, 298);
+            bttn_Reset.BackColor = SystemColors.ControlLight;
+            bttn_Reset.Location = new Point(549, 448);
+            bttn_Reset.Margin = new Padding(3, 4, 3, 4);
             bttn_Reset.Name = "bttn_Reset";
-            bttn_Reset.Size = new Size(135, 31);
+            bttn_Reset.Size = new Size(154, 41);
             bttn_Reset.TabIndex = 5;
             bttn_Reset.Text = "Reset";
-            bttn_Reset.UseVisualStyleBackColor = true;
+            bttn_Reset.UseVisualStyleBackColor = false;
+            bttn_Reset.Click += bttn_Reset_Click;
             // 
             // frm_Customer
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 341);
+            ClientSize = new Size(914, 498);
             Controls.Add(bttn_Reset);
             Controls.Add(bttn_AddRecrod);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(label13);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frm_Customer";
             Text = "Add Customer";
             groupBox1.ResumeLayout(false);
@@ -355,7 +422,6 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -364,7 +430,7 @@
         private TextBox txt_CNIC;
         private TextBox txt_CellNo;
         private TextBox txt_PhoneNo;
-        private TextBox txt_CityName;
+        private TextBox txt_Address;
         private TextBox txt_BusinessName;
         private Label label12;
         private TextBox txt_EmailAddress;
@@ -386,5 +452,9 @@
         private Label label9;
         private Button bttn_AddRecrod;
         private Button bttn_Reset;
+        private Label label8;
+        private ComboBox cmb_Province;
+        private ComboBox cmb_RegType;
+        private Label label14;
     }
 }

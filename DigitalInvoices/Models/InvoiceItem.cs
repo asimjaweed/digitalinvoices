@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace DigitalInvoices.Models
 {
     public class InvoiceItem
     {
+        [Key]
         public int Id { get; set; }
 
         public int InvoiceId { get; set; } // FK
@@ -15,7 +17,7 @@ namespace DigitalInvoices.Models
 
         public string HsCode { get; set; } = string.Empty;
         public string ProductDescription { get; set; } = string.Empty;
-        public string Rate { get; set; } = string.Empty;
+        public decimal? Rate { get; set; } 
         public string UoM { get; set; } = string.Empty;
 
         public decimal Quantity { get; set; }

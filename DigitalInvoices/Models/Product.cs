@@ -12,11 +12,12 @@ namespace DigitalInvoices.Models
         [Key]
             public int Id { get; set; }
 
-            public string Name { get; set; }
+            public string Name { get; set; }= string.Empty;
 
-            public string HsCode { get; set; }
+            public string HsCode { get; set; }=string.Empty;
 
-            public decimal UnitPrice { get; set; }
+        public string UoM { get; set; }=string.Empty;    
+        public decimal UnitPrice { get; set; }
 
             public decimal SalesTaxRate { get; set; }
         

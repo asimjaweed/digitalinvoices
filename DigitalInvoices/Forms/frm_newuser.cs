@@ -66,7 +66,7 @@ namespace DigitalInvoices
                         try
                         {
                             // Check duplicate username
-                            var existingUser = db.Users
+                            var existingUser = db.users
                                 .FirstOrDefault(x => x.Username == txt_username.Text);
 
                             if (existingUser != null)
@@ -83,7 +83,7 @@ namespace DigitalInvoices
                             user.Password = HashPassword(txt_password.Text).Trim();
                             //user.Status = 
 
-                            db.Users.Add(user);
+                            db.users.Add(user);
 
                             db.SaveChanges();
 
