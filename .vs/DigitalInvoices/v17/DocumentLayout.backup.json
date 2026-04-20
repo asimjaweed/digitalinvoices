@@ -1,36 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\MySoft\\MyWork\\Desktop\\DI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|g:\\mysoft\\mywork\\desktop\\di\\digitalinvoices\\forms\\frm_invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|solutionrelative:digitalinvoices\\forms\\frm_invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|g:\\mysoft\\mywork\\desktop\\di\\digitalinvoices\\models\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|solutionrelative:digitalinvoices\\models\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|g:\\mysoft\\mywork\\desktop\\di\\digitalinvoices\\forms\\frm_invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|solutionrelative:digitalinvoices\\forms\\frm_invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|g:\\mysoft\\mywork\\desktop\\di\\digitalinvoices\\forms\\frm_invoice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|solutionrelative:digitalinvoices\\forms\\frm_invoice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|g:\\mysoft\\mywork\\desktop\\di\\digitalinvoices\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|solutionrelative:digitalinvoices\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|g:\\mysoft\\mywork\\desktop\\di\\digitalinvoices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|solutionrelative:digitalinvoices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|g:\\mysoft\\mywork\\desktop\\di\\digitalinvoices\\forms\\frm_seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4B4206-1E19-42C5-A413-8E9369973BA7}|DigitalInvoices\\DigitalInvoices.csproj|solutionrelative:digitalinvoices\\forms\\frm_seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\AsimJaweed\\MyWorks\\DesktopApp\\DigitalInvoices\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -38,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 528,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,94 +28,8 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Program.cs",
-              "RelativeDocumentMoniker": "DigitalInvoices\\Program.cs",
-              "ToolTip": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Program.cs",
-              "RelativeToolTip": "DigitalInvoices\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T17:55:26.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frm_seller.cs",
-              "DocumentMoniker": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Forms\\frm_seller.cs",
-              "RelativeDocumentMoniker": "DigitalInvoices\\Forms\\frm_seller.cs",
-              "ToolTip": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Forms\\frm_seller.cs",
-              "RelativeToolTip": "DigitalInvoices\\Forms\\frm_seller.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwB8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T17:49:32.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InvoiceItem.cs",
-              "DocumentMoniker": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Models\\InvoiceItem.cs",
-              "RelativeDocumentMoniker": "DigitalInvoices\\Models\\InvoiceItem.cs",
-              "ToolTip": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Models\\InvoiceItem.cs",
-              "RelativeToolTip": "DigitalInvoices\\Models\\InvoiceItem.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T09:57:05.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Utility.cs",
-              "DocumentMoniker": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Models\\Utility.cs",
-              "RelativeDocumentMoniker": "DigitalInvoices\\Models\\Utility.cs",
-              "ToolTip": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Models\\Utility.cs",
-              "RelativeToolTip": "DigitalInvoices\\Models\\Utility.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAnwHMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T09:37:58.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frm_invoice.Designer.cs",
-              "DocumentMoniker": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Forms\\frm_invoice.Designer.cs",
-              "RelativeDocumentMoniker": "DigitalInvoices\\Forms\\frm_invoice.Designer.cs",
-              "ToolTip": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Forms\\frm_invoice.Designer.cs",
-              "RelativeToolTip": "DigitalInvoices\\Forms\\frm_invoice.Designer.cs",
-              "ViewState": "AgIAABwCAAAAAAAAAIAxwCYCAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T07:45:48.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frm_invoice.cs",
-              "DocumentMoniker": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Forms\\frm_invoice.cs",
-              "RelativeDocumentMoniker": "DigitalInvoices\\Forms\\frm_invoice.cs",
-              "ToolTip": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Forms\\frm_invoice.cs",
-              "RelativeToolTip": "DigitalInvoices\\Forms\\frm_invoice.cs",
-              "ViewState": "AgIAACgBAAAAAAAAAIAxwDsBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T17:33:18.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frm_invoice.cs [Design]",
-              "DocumentMoniker": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Forms\\frm_invoice.cs",
-              "RelativeDocumentMoniker": "DigitalInvoices\\Forms\\frm_invoice.cs",
-              "ToolTip": "G:\\MySoft\\MyWork\\Desktop\\DI\\DigitalInvoices\\Forms\\frm_invoice.cs [Design]",
-              "RelativeToolTip": "DigitalInvoices\\Forms\\frm_invoice.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T17:32:59.715Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },
